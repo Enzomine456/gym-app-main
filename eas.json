@@ -8,21 +8,18 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk"
-      },
-      "platforms": ["android"]
+      }
     },
     "preview": {
       "distribution": "internal",
       "android": {
         "buildType": "apk"
-      },
-      "platforms": ["android"]
+      }
     },
     "production": {
       "android": {
         "buildType": "app-bundle"
-      },
-      "platforms": ["android"]
+      }
     }
   },
   "submit": {
