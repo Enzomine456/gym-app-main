@@ -1,0 +1,31 @@
+{
+  "cli": {
+    "version": ">= 16.32.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "platforms": ["android"]
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "platforms": ["android"]
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "platforms": ["android"]
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
